@@ -96,7 +96,9 @@
 
     </tr>
   </table> </br>
+
 <!-- listes -->
+
   <ol>
     <li>Coffee</li>
     <li>Tea</li>
@@ -110,11 +112,54 @@
     <li>Milk</li>
     <li>test</li>
 </ol>
+
 <!-- citation -->
+
 <blockquote cite="https://fr.businessam.be/les-13-citations-les-plus-pertinentes-sur-le-bitcoin/#:~:text=%C2%AB%20Si%20vous%20n'y%20croyez,le%20cr%C3%A9ateur%20anonyme%20de%20Bitcoin.">
   Si vous n’y croyez pas ou si vous ne comprenez pas,
   je n’ai pas le temps de vous convaincre, désolé
 </blockquote>
+
+<!--on passe au php à partir d'ici-->
+
+<form action="index.html" method="posts">
+  <label for="nom">Nom :</label>
+  <input type="text" name="nom" id="nom"/> <br/>
+  <label for="prenom">prenom :</label>
+  <input type="text" name="prenom" id="prenom"/> <br/>
+  <input type="submit" name="Valider" id="Valider" value="Valider" />
+</form>
+
+
+<label for="cars">Choose a car:</label>
+<select id="cars" name="cars">
+  <option value="">choisir</option>
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="fiat">Fiat</option>
+    <option value="audi">Audi</option>
+  
+</select>
+
+<div id="carre">
+<form action="/action_page.php" method="post">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">HTML</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">CSS</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript"> <label for="javascript">JavaScript</label>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> I have a bike</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> I have a car</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> I have a boat</label>
+  <input type="submit" value="Submit">
+  <input type="reset" value="reset">
+  </form>
+</div>
 
 
 

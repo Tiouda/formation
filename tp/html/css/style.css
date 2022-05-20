@@ -32,3 +32,10 @@ td{
 table{
     border-collapse: collapse;
 }
+
+#carre{
+    box-shadow: 0 7px 25px white;
+   padding: 1%;
+    width: fit-content;
+    
+}
