@@ -3,37 +3,42 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
+    <title>Réservation</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
+    <style>
+        body{
+            background-color: rgb(0, 147, 180);
+        }
+    </style>
 </head>
 
 <body>
 
-    <!-- Titres -->
+<!-- Titres -->
 
 <h1 style="text-align:center;">Votre réservation d'hotel</h1>
 <h2 style="text-align: center;">*Champs obligatoires</h2>
 
 <!-- Formulaire -->
-<form>
+<form action="" method="post" enctype="multipart/form-data">
 
 <!-- Nom -->
-<label for="fname" placeholder="nom de famille">Votre nom*:</label> <br>
-<input type="text" placeholder="Nom de famille" required> <br><br>
+<label for="nom">Votre nom*:</label> <br/>
+<input type="text" placeholder="Nom de famille" required> <br/><br/>
 
 <!-- Prénom -->
-<label for="fname" placeholder="Prénom">Votre prénom*:</label> <br>
-<input type="text" placeholder="Prénom" required> <br><br>
+<label for="prénom">Votre prénom*:</label> <br/>
+<input type="text" placeholder="Prénom" required> <br/><br/>
 
 <!-- Téléphone -->
-<label for="fname" placeholder="Numéro de téléphone">Votre numéro de téléphone*:</label> <br>
-<input type="tel" placeholder="0604020103"required> <br> <br>
+<label for="téléphone">Votre numéro de téléphone*:</label> <br/>
+<input type="tel" name="tel" id="tel" placeholder="0604020103"required maxlength="10"> <br/><br/>
 
 <!-- E-mail -->
-<label for="fname" placeholder="Adresse e-mail">Votre adresse e-mail*:</label> <br>
-<input type="text" placeholder="Adresse e-mail"required> <br><br>
+<label for="mail">Votre adresse e-mail*:</label> <br/>
+<input type="email" name="mail" id="mail" placeholder="Adresse e-mail"required> <br/><br/>
 
 <!-- Ville -->
 <label for="Ville">Selectionner la ville :</label>
@@ -48,37 +53,40 @@
     <option value="La Rochelle">La Rochelle</option>
     <option value="Poitiers">Poitiers</option>
     <option value="Toulouse">Toulouse</option>
-</select> <br> <br>
+</select> <br/> <br/>
 
 <!-- Date -->
-<label for="fname" placeholder="Date">Date d'arrivée:</label> <br>
-<input type="date"> <br><br>
+<label for="date">Date d'arrivée:</label> <br/>
+<input type="date" name="date" id="date"><br/><br/>
 
 <!-- Nombre de personnes -->
-<label for="fname" placeholder="Nombre de personne">Nombre de personnes*:</label> <br>
-<input type="number" required> <br><br>
+<label for="nb">Nombre de personnes*:</label> <br/>
+<input type="number" name="nb" id="nb" min="0" max="100" value="1" required> <br/><br/>
 
 <!-- Les options -->
-<label for="fname" placeholder="Options">Vos options:</label> <br>
-<input type="checkbox" id="Climatisation" name="Climatisation" value="Climatisation">
+<label for="choix">Vos options:</label> <br/>
+<input type="checkbox" id="Clim" name="choix" value="Clim">
 <label for="Climatisation"> Climatisation</label>
-<input type="checkbox" id="Mini Bar" name="Mini Bar" value="Mini Bar">
+<input type="checkbox" id="Bar" name="choix" value="Bar">
 <label for="Mini bar"> Mini Bar</label>
-<input type="checkbox" id="Jacuzzi" name="Jacuzzi" value="Jacuzzi">
-<label for="Jacuzzi"> Jacuzzi</label> <br> <br>
+<input type="checkbox" id="Jacuzzi" name="choix" value="Jacuzzi">
+<label for="Jacuzzi"> Jacuzzi</label> <br/> <br/>
 
 <!-- Commentaires -->
-<textarea name="message" rows="2" cols="20">Ajouter un commentaire.</textarea> <br>
+<textarea name="message" id="message" rows="2" cols="20">Ajouter un commentaire.</textarea> <br/>
 
 <!-- Conditions Générales -->
-<label for="fname" placeholder="Options">Acceptation des Conditions Générales de Vente (CGV)*:</label> <br>
-<input type="radio" id="html" name="fav_language" value="J'accepte"checked>
-<label for="html">J'accepte</label>
-<input type="radio" id="css" name="fav_language" value="Je refuse">
-<label for="css">Je refuse</label> <br> <br>
+<label for="cgv">Acceptation des Conditions Générales de Vente (CGV)*:</label> <br/>
+<input type="radio" id="J'accepte" name="cgv" value="J'accepte"checked>
+<label for="oui">J'accepte</label>
+<input type="radio" id="Je refuse" name="cgv" value="Je refuse">
+<label for="non">Je refuse</label> <br/> <br/>
 
+<!-- Boutons -->
+<input type="submit" value="Envoyer ma demande">
+<input type="reset" value="Réinitialiser le formulaire">
+    
 
-<button type="submit" name="submit">Envoyer ma demande</button> <br>
 
 </form>
 </body>
