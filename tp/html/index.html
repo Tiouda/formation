@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -11,162 +11,133 @@
     <script src="main.js">  </script>
 
   </head>
-<!-- début de body -->
-  <body>
 
-   <div style="text-align: center"> <h1>Mon 1er cours html</h1>
+<!-- Haut de page -->
 
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, velit
-      quis voluptatem tempora neque officiis corporis ullam maxime natus
-      doloribus numquam accusantium, id, doloremque recusandae amet placeat ab
-      soluta nobis?
-    </p> 
-  </div>
+<body>
 
-    <p style="text-align: center" class="para" id="p1">Un paragraphe</p>
-<!-- les titres en test -->
-    <h2>Heading 2</h2>
-    <p>je le méga commit</p>
-    <h3 id="chocolat">Headin g 3</h3>
-    <h4 class="divers">Heading 4</h4>
-    <h5 class="divers">Heading 5</h5>
-    <h6 class="divers">Heading 6</h6>
+<header>
+    <div id="Top"> <h1>Ce que nous apprenons en formation</h1> </div>
+</header>
 
-<!-- les href en test-->
-
-    <a href="https://www.google.fr/" target="_blank" title="Lien vers google">
-      Lien vers google
-    </a>
-
-    <a
-      href="https://getbootstrap.com/"
-      target="_blank"
-      title="lien vers bootsrap"
-      
-    >
-      <img src="img/boot.png" alt="bootsrap" width="180" height="150"
-    /></a>
-<br/>
-    <img src="img/renard.png" alt="un beau renard" width="100" height="100" title="le renard metamask" />
-
+    <p> Le titre que vous venez de lire est un h1, soit le titre le plus important à mettre une seule fois bien-sûr </p>
+    <p>Maintenant voici un exemple de lien absolues -> <a class="lien" href="https://google.com" target="_blank">Lien vers google </p> <br>
+    <p>Où alors par logo <img src="img/chrome.png" alt="Google"></p> </a>  
+    <p>Et maintenant un exemple de lien relatif -> <a class="lien" href="clients/fiche-client.html">Lien vers mon fichier client</a></p> <br> <br>
     
-    <a href="clients/fiche-client.html">
-      <h2>Vers fiche client</h2>
-    </a>
+</section>
 
-    <a href="clients/Vip/vip.html">
-      <h2>Vers Vip</h2>
-  </a>
+<div class="parallax"></div>
 
-  <a href="mail à :tillierdalian@gmail.com">Envoie de mail</a> </br>
-  <a href="tel:(+33)(0605257093)">Numéro de téléphone</a> </br>
-  <a href="fax:352300948372">Pour un super fax</a> </br>
-  <a href="Appeler sur skype">Pour un appel skype</a> </br>
-  
-    <!-- tableau -->
-  <table>
+<!-- Contacts -->
+<section>
+
+    <p>Nous avons pu voir également comment introduire nos contacts, et je vais le proposer sous forme de liste
+       <ul>
+          <li>Mon email <a class="lien" href="mailto:tillierdalian@gmail.com">ici</a></li>
+          <li>Mon mobile <a class="lien" href="tel:+33605257093">juste là</a></li>
+          <li>Mon fax <a class="lien" href="fax:+33605257093">par la bàs</a></li>
+          <li>Mon skype pour finir <a class="lien" href="Flayzeur1">par ici et nul part</a></li>
+       </ul>
+    </p>
+
+</section> <br>
+
+ <!-- tableau -->
+
+<p>Bam zero transition on passe sur un tableau</p>
+
+<table>
     <tr>
-      <td style="text-align: left">Eleve</td>
-      <td>Matière 1</td>
-      <td>Matière 2</td>
-      <td>Matière 3</td>
-      <td>Matière 4</td>
+      <td style="text-align: center">Le système solaire</td>
+      <th>Mercure</th>
+      <th>Vénus</th>
+      <th>La Terre</th>
+      <th>Mars</th>
     </tr>
     <tr>
-      <td>Eric</td>
-      <td style="text-align: right">12</td>
-      <td style="text-align: right">9</td>
-      <td style="text-align: right">10</td>
-      <td style="text-align: right">11</td>
+      <td>Jupiter</td>
+      <td style="text-align: center">3</td>
+      <td style="text-align: center">2</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">0</td>
     </tr>
     <tr>
-      <td>Stephane</td>
-      <td style="text-align: right">14</td>
-      <td style="text-align: right">11</td>
-      <td style="text-align: right">13</td>
-      <td style="text-align: right">17</td>
+      <td>Saturne</td>
+      <td style="text-align: center">4</td>
+      <td style="text-align: center">3</td>
+      <td style="text-align: center">2</td>
+      <td style="text-align: center">1</td>
     </tr>
     <tr>
-      <td>Lucie</td>
-      <td style="text-align: right">16</td>
-      <td style="text-align: right">5</td>
-      <td style="text-align: right">15</td>
-      <td style="text-align: right">7</td>
-
+      <td>Uranus</td>
+      <td style="text-align: center">7</td>
+      <td style="text-align: center">6</td>
+      <td style="text-align: center">5</td>
+      <td style="text-align: center">4</td>
     </tr>
   </table> </br>
 
-<!-- listes -->
+ <!-- Parallax-->
 
-  <ol>
-    <li>Coffee</li>
-    <li>Tea</li>
-    <li>Milk</li>
-    <li></li>
-</ol>
-
-<ol type="I" start="1000">
-    <li>Coffee</li>
-    <li>Tea</li>
-    <li>Milk</li>
-    <li>test</li>
-</ol>
+  <div class="parallax parallax1"></div>
 
 <!-- citation -->
+<p id="taille">On peut même mettre des citation avec la balise cite</p>
+<p><cite>Perceval de Kaamelott : </cite>Donc, pour résumer, je suis souvent victime des colibris, sous-entendu des types qu’oublient toujours tout. Euh, non… Bref, tout ça pour dire, que je voudrais bien qu’on me considère en tant que Tel.</p>
 
-<blockquote cite="https://fr.businessam.be/les-13-citations-les-plus-pertinentes-sur-le-bitcoin/#:~:text=%C2%AB%20Si%20vous%20n'y%20croyez,le%20cr%C3%A9ateur%20anonyme%20de%20Bitcoin.">
-  Si vous n’y croyez pas ou si vous ne comprenez pas,
-  je n’ai pas le temps de vous convaincre, désolé
-</blockquote>
 
-<!--on passe au php à partir d'ici-->
+  <div class="parallax parallax2"></div> <br/> <br/>
+  
 
-<form action="index.html" method="posts">
-  <label for="nom">Nom :</label>
-  <input type="text" name="nom" id="nom"/> <br/>
-  <label for="prenom">prenom :</label>
-  <input type="text" name="prenom" id="prenom"/> <br/>
-  <input type="submit" name="Valider" id="Valider" value="Valider" />
+
+<!--Formulaire-->
+
+
+<aside>
+  <div id="box">
+    <h2> Bob l'éponge</h2>
+  </div>
+</aside>
+
+<p>Nous pouvons maintenant fabriquer des formulaires :</p>
+<form action="toto.php" method="post" >
+
+  <div id="please">
+  <form>
+   <legend> Votre vision : </legend>
+     <p> Etes vous nyctalope ? :  </p>
+       <input type="radio" name="CSS" value="oui" id="oui"
+       checked="checked" />
+       <label for="oui" class="inline">oui</label>
+       <input type="radio" name="CSS" value="non" id="non" />
+       <label for="non" class="inline">non</label>
+     
+    <label for="utilise">Si oui, les utilisez-vous plutôt : </label>
+     <select name="utilise" id="utilise">
+      <option value="toujours"> Quand la lumière est éteint</option>
+      <option value="parfois"> La nuit</option>
+      <option value="jamais"> Jamais</option>
+     </select>
+
+  
+   <legend>Vos coordonnées :</legend>
+     <label for="email">Votre email :</label>
+     <input type="email" name="email" size="20" maxlength="40" placeholder="Email" id="email" />
+  
+     <label for="comments">Vos commentaires :</label>
+    <textarea name="comments" id="comments" cols="20" rows="4"> </textarea>
+
+
+  </div>
+
+   <p>
+   <input type="submit" value="Envoyer" />
+   <input type="reset" value="Annuler" />
+   </p>
 </form>
 
-
-<label for="cars">Choose a car:</label>
-<select id="cars" name="cars">
-  <option value="">choisir</option>
-    <option value="volvo">Volvo</option>
-    <option value="saab">Saab</option>
-    <option value="fiat">Fiat</option>
-    <option value="audi">Audi</option>
+<div class="parallax parallax3"></div>
   
-</select>
-
-<div id="carre">
-<form action="/action_page.php" method="post">
-  <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" value="John"><br>
-  <input type="radio" id="html" name="fav_language" value="HTML">
-  <label for="html">HTML</label><br>
-  <input type="radio" id="css" name="fav_language" value="CSS">
-  <label for="css">CSS</label><br>
-  <input type="radio" id="javascript" name="fav_language" value="JavaScript"> <label for="javascript">JavaScript</label>
-  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-  <label for="vehicle1"> I have a bike</label><br>
-  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-  <label for="vehicle2"> I have a car</label><br>
-  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-  <label for="vehicle3"> I have a boat</label>
-  <input type="submit" value="Submit">
-  <input type="reset" value="reset">
-  </form>
-</div>
-
-
-
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
   </body>
 </html>
