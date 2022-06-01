@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Lato&family=Luckiest+Guy&family=Montserrat:wght@500&family=Oswald&display=swap");
+
+body {
+  margin: 0;
+
+  font-size: 15px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(0, 183, 159);
+  color: rgb(94, 94, 94);
+  padding: 10px 20px;
+}
+
+header img {
+  border-radius: 50%;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  margin-top: 80px 4px;
+  background-color: rgb(148, 167, 161);
+}
+
+section {
+  width: 30%;
+  border: 1px solid firebrick;
+  border-radius: 20px;
+  margin: 1%;
+  background-color: rgb(212, 212, 212);
+}
+
+h2 {
+  text-align: center;
+}
+
+h3,
+h4,
+h5,
+p {
+  padding-left: 15px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  padding: 10px 0;
+}
+
+section a {
+  color: aqua;
+  text-decoration: none;
+}
+
+ul {
+  margin-bottom: 70px;
+}
+
+section img {
+  height: 100px;
+  width: 100px;
+}
+
+/* Media queries */
+
+/* tres petit téléphone */
+@media (max-width: 575px) {
+  main {
+    flex-wrap: wrap;
+    padding: 35px 0 0 0;
+  }
+  section {
+    width: 85px;
+    margin-bottom: 25px;
+    padding-top: 0;
+  }
+  h3{
+    margin:  20px 0 10px 0;
+}
+h4{
+    margin: 0;
+}
+h5{
+    margin: 15px 0;
+}
+section p{
+    font-size: 1.4rem;
+}
+}
+
+/* téléphone moyen */
+
+@media (max-width: 768px) {
+    main {
+        flex-wrap: wrap;
+        padding: 35px 0 0 0;
+    }
+    section {
+        width: 80%;
+        margin-bottom: 25px;
+    }
+    h3 {
+        margin: 20px 0 10px 0;
+    }
+    h4 {
+        margin: 0;
+    }
+    h5 {
+        margin: 15px 0;
+    }
+    section p {
+        font-size: 1.4rem;
+    }
+}
+
+/* tablette */
+
+@media (min-width: 769px) and (max-width: 992px) {
+    main{
+        padding-top: 55px;
+        flex-wrap: wrap;
+    }
+    section{
+        width: 43%;
+        margin: 0 1% 25px 1%;
+    }
+}
+
+/* pc */
+
+@media (min-width: 993px) and (max-width: 1200px) {
+}
+
+/* grand pc */
+
+@media (min-width: 1201px) {
+}

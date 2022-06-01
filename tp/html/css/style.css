@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Luckiest+Guy&display=swap');
+
+
+
 h1{
     color : purple;
     text-align: center;
@@ -9,7 +12,7 @@ font-family: 'Luckiest Guy', cursive;
 #box{
     border-style: solid;
     border-width: 20px;
-    background-color: #000000;
+    background-color: #868686;
     position: relative;
     border-radius: 50px;
     text-align: center;
@@ -22,9 +25,38 @@ font-family: 'Luckiest Guy', cursive;
     transition: all 0.5s;
     color: pink;
     border-radius: 30%;
-
-
 }
+
+.divbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+
+#lorem1, #lorem2, #lorem3 {
+    background-color: #6495ed;
+    border: 3px solid black;
+    margin: 1%;
+    padding: 2%;
+    height: 300px;
+}
+
+#lorem1{
+    width: 30%;
+    background-color: red;
+}
+
+#lorem2{
+    width: 35%;
+    background-color: green;
+}
+
+#lorem3{
+    width: 30%;
+}
+
 
 p{
     font-family: 'Grape Nuts', cursive;

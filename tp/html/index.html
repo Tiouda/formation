@@ -7,137 +7,150 @@
     <meta name="description" content="Le meilleur site pour les tutos web" />
     <title>Cours HTML</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
-    <script src="main.js">  </script>
-
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/style.css"
+    />
+    <script src="main.js"></script>
   </head>
 
-<!-- Haut de page -->
+  <!-- Haut de page -->
 
-<body>
+  <body>
+    <header>
+      <div id="Top"><h1>Ce que nous apprenons en formation</h1></div>
+    </header>
+    <section>
+      <p>
+        Le titre que vous venez de lire est un h1, soit le titre le plus
+        important à mettre une seule fois bien-sûr
+      </p>
 
-<header>
-    <div id="Top"> <h1>Ce que nous apprenons en formation</h1> </div>
-</header>
+      <p>
+        Maintenant voici un exemple de lien absolues ->
+        <a class="lien" href="https://google.com" target="_blank"
+          >Lien vers google
+        </a>
+      </p>
+      <br />
+      <p>Où alors par logo <img src="img/chrome.png" alt="Google" /></p>
+      <p>
+        Et maintenant un exemple de lien relatif ->
+        <a class="lien" href="clients/fiche-client.html"
+          >Lien vers mon fichier client</a
+        >
+      </p>
+      <br />
+      <br />
+    </section>
 
-    <p> Le titre que vous venez de lire est un h1, soit le titre le plus important à mettre une seule fois bien-sûr </p>
-    <p>Maintenant voici un exemple de lien absolues -> <a class="lien" href="https://google.com" target="_blank">Lien vers google </p> <br>
-    <p>Où alors par logo <img src="img/chrome.png" alt="Google"></p> </a>  
-    <p>Et maintenant un exemple de lien relatif -> <a class="lien" href="clients/fiche-client.html">Lien vers mon fichier client</a></p> <br> <br>
-    
-</section>
+    <div class="parallax"></div>
 
-<div class="parallax"></div>
+    <!-- Contacts -->
+    <section>
+      <p>
+        Nous avons pu voir également comment introduire nos contacts, et je vais
+        le proposer sous forme de liste
+      </p>
+      <ul>
+        <li>
+          Mon email
+          <a class="lien" href="mailto:tillierdalian@gmail.com">ici</a>
+        </li>
+        <li>Mon mobile <a class="lien" href="tel:+33605257093">juste là</a></li>
+        <li>Mon fax <a class="lien" href="fax:+33605257093">par la bàs</a></li>
+        <li>
+          Mon skype pour finir
+          <a class="lien" href="Flayzeur1">par ici et nul part</a>
+        </li>
+      </ul>
+    </section>
+    <br />
 
-<!-- Contacts -->
-<section>
+    <!-- tableau -->
 
-    <p>Nous avons pu voir également comment introduire nos contacts, et je vais le proposer sous forme de liste
-       <ul>
-          <li>Mon email <a class="lien" href="mailto:tillierdalian@gmail.com">ici</a></li>
-          <li>Mon mobile <a class="lien" href="tel:+33605257093">juste là</a></li>
-          <li>Mon fax <a class="lien" href="fax:+33605257093">par la bàs</a></li>
-          <li>Mon skype pour finir <a class="lien" href="Flayzeur1">par ici et nul part</a></li>
-       </ul>
+    <p>Bam zero transition on passe sur un tableau</p>
+
+    <table>
+      <tr>
+        <td style="text-align: center">Le système solaire</td>
+        <th>Mercure</th>
+        <th>Vénus</th>
+        <th>La Terre</th>
+        <th>Mars</th>
+      </tr>
+
+      <tr>
+        <td>Jupiter</td>
+        <td style="text-align: center">3</td>
+        <td style="text-align: center">2</td>
+        <td style="text-align: center">1</td>
+        <td style="text-align: center">0</td>
+      </tr>
+      <tr>
+        <td>Saturne</td>
+        <td style="text-align: center">4</td>
+        <td style="text-align: center">3</td>
+        <td style="text-align: center">2</td>
+        <td style="text-align: center">1</td>
+      </tr>
+      <tr>
+        <td>Uranus</td>
+        <td style="text-align: center">7</td>
+        <td style="text-align: center">6</td>
+        <td style="text-align: center">5</td>
+        <td style="text-align: center">4</td>
+      </tr>
+    </table>
+
+    <!-- Parallax-->
+
+    <div class="parallax parallax1"></div>
+    <!-- citation -->
+    <p id="taille">On peut même mettre des citation avec la balise cite</p>
+    <p>
+      <cite>Perceval de Kaamelott : </cite>Donc, pour résumer, je suis souvent
+      victime des colibris, sous-entendu des types qu’oublient toujours tout.
+      Euh, non… Bref, tout ça pour dire, que je voudrais bien qu’on me considère
+      en tant que Tel.
     </p>
+    <div class="parallax parallax2">
+      <div class="divbox">
+        <p id="lorem1">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere
+          praesentium sint, amet incidunt, sed necessitatibus aut unde tempora
+          ex architecto similique! Veritatis vitae pariatur fugiat, odio
+          excepturi aspernatur repudiandae deleniti.
+        </p>
+        <br />
 
-</section> <br>
+        <p id="lorem2">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere
+          praesentium sint, amet incidunt, sed necessitatibus aut unde tempora
+          ex architecto similique! Veritatis vitae pariatur fugiat, odio
+          excepturi aspernatur repudiandae deleniti.
+        </p>
+        <br />
 
- <!-- tableau -->
+        <p id="lorem3">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere
+          praesentium sint, amet incidunt, sed necessitatibus aut unde tempora
+          ex architecto similique! Veritatis vitae pariatur fugiat, odio
+          excepturi aspernatur repudiandae deleniti.
+        </p>
+        <br />
+      </div>
+    </div>
+    <br />
+    <br /><br />
+    <br /><br />
 
-<p>Bam zero transition on passe sur un tableau</p>
+    <aside>
+      <div id="box"><h2>Bob l'éponge</h2></div>
+    </aside>
 
-<table>
-    <tr>
-      <td style="text-align: center">Le système solaire</td>
-      <th>Mercure</th>
-      <th>Vénus</th>
-      <th>La Terre</th>
-      <th>Mars</th>
-    </tr>
-    <tr>
-      <td>Jupiter</td>
-      <td style="text-align: center">3</td>
-      <td style="text-align: center">2</td>
-      <td style="text-align: center">1</td>
-      <td style="text-align: center">0</td>
-    </tr>
-    <tr>
-      <td>Saturne</td>
-      <td style="text-align: center">4</td>
-      <td style="text-align: center">3</td>
-      <td style="text-align: center">2</td>
-      <td style="text-align: center">1</td>
-    </tr>
-    <tr>
-      <td>Uranus</td>
-      <td style="text-align: center">7</td>
-      <td style="text-align: center">6</td>
-      <td style="text-align: center">5</td>
-      <td style="text-align: center">4</td>
-    </tr>
-  </table> </br>
-
- <!-- Parallax-->
-
-  <div class="parallax parallax1"></div>
-
-<!-- citation -->
-<p id="taille">On peut même mettre des citation avec la balise cite</p>
-<p><cite>Perceval de Kaamelott : </cite>Donc, pour résumer, je suis souvent victime des colibris, sous-entendu des types qu’oublient toujours tout. Euh, non… Bref, tout ça pour dire, que je voudrais bien qu’on me considère en tant que Tel.</p>
-
-
-  <div class="parallax parallax2"></div> <br/> <br/>
-  
-
-
-<!--Formulaire-->
-
-
-<aside>
-  <div id="box">
-    <h2> Bob l'éponge</h2>
-  </div>
-</aside>
-
-<p>Nous pouvons maintenant fabriquer des formulaires :</p>
-<form action="toto.php" method="post" >
-
-  <div id="please">
-  <form>
-   <legend> Votre vision : </legend>
-     <p> Etes vous nyctalope ? :  </p>
-       <input type="radio" name="CSS" value="oui" id="oui"
-       checked="checked" />
-       <label for="oui" class="inline">oui</label>
-       <input type="radio" name="CSS" value="non" id="non" />
-       <label for="non" class="inline">non</label>
-     
-    <label for="utilise">Si oui, les utilisez-vous plutôt : </label>
-     <select name="utilise" id="utilise">
-      <option value="toujours"> Quand la lumière est éteint</option>
-      <option value="parfois"> La nuit</option>
-      <option value="jamais"> Jamais</option>
-     </select>
-
-  
-   <legend>Vos coordonnées :</legend>
-     <label for="email">Votre email :</label>
-     <input type="email" name="email" size="20" maxlength="40" placeholder="Email" id="email" />
-  
-     <label for="comments">Vos commentaires :</label>
-    <textarea name="comments" id="comments" cols="20" rows="4"> </textarea>
-
-
-  </div>
-
-   <p>
-   <input type="submit" value="Envoyer" />
-   <input type="reset" value="Annuler" />
-   </p>
-</form>
-
-<div class="parallax parallax3"></div>
-  
+    <div class="parallax parallax3"></div>
   </body>
 </html>
