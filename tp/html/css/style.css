@@ -1,20 +1,208 @@
-body{
-    background-color: gray;
-}
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Luckiest+Guy&display=swap');
+
+
 
 h1{
     color : purple;
     text-align: center;
+    font-family: 'Grape Nuts', cursive;
+font-family: 'Luckiest Guy', cursive;
 }
+
+#box{
+    border-style: solid;
+    border-width: 20px;
+    background-color: #868686;
+    position: relative;
+    border-radius: 50px;
+    text-align: center;
+    width: 350px;
+    margin: auto;
+    transition: all 1s;
+}
+
+#box:hover{
+    transition: all 0.5s;
+    color: pink;
+    border-radius: 30%;
+}
+
+.divbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+
+#lorem1, #lorem2, #lorem3 {
+    background-color: #6495ed;
+    border: 3px solid black;
+    margin: 1%;
+    padding: 2%;
+    height: 300px;
+}
+
+#lorem1{
+    width: 30%;
+    background-color: red;
+}
+
+#lorem2{
+    width: 35%;
+    background-color: green;
+}
+
+#lorem3{
+    width: 30%;
+}
+
 
 p{
-    font-family: verdana;
-    font-size: 20px;
+    font-family: 'Grape Nuts', cursive;
+font-family: 'Luckiest Guy', cursive;
 }
 
-#chocolat{
-    color:chocolate;
+.lien{
+    text-decoration: none;
 }
+
+img{
+    width: 50px;
+    height: 50px;
+}
+
+#Top {
+    border-style: solid;
+    border-width: 2px;
+    background-color: #027c2b;
+    position: relative;
+    border-radius: 50px;
+   }
+
+.parallax{ 
+   height: 80vh;
+   background-attachment: fixed; /* Fixe l'image pendant le scroll */
+   background-size: cover; /* L'image prendra 100% de l'espace, quitte à la crop */
+   background-position: center; /* Centre la position de l'image */
+   background-repeat: no-repeat; /* Empêche l'image de se répéter en fonction de la taille d'écran */
+   background-image: url("../img/explo.jpeg");
+  }
+
+.parallax1{
+    background-image: url("../img/bob.jpeg");
+}
+
+.parallax2{
+    background-image: url("../img/bobi.jpeg");
+}
+
+.parallax3{
+    background-image: url("../img/nebu.jpeg");
+}
+
+#please{
+    min-height: 50%;
+    min-height: 50%;
+    background-color: yellowgreen;
+    padding: 10%;
+}
+
+#please p{
+    background-color: magenta;
+    width: fit-content;
+    padding: 1%;
+    height: fit-content;
+}
+
+
+
+
+table {
+    border:3px solid #6495ed;
+    border-collapse:collapse;
+    width:90%;
+    margin:auto;
+    }
+
+th {
+    font-family:monospace;
+    border:1px solid #000000;
+    padding:5px;
+    background-color:#EFF6FF;
+    width:15%;
+    text-align: center;
+    }
+td{
+    font-family:monospace;
+    border:1px solid #000000;
+    padding:5px;
+    background-color:#EFF6FF;
+    width:15%;
+    text-align: center;
+}
+
+#taille::first-letter{
+    color: red;
+
+}
+
+body {
+    font-family:"trebuchet ms",sans-serif;
+    font-size:90%;
+    }
+   form {
+    background-color:#FAFAFA;
+    padding:10px;
+    width:280px;
+    padding:0 20px 20px 20px;
+    margin-bottom:10px;
+    border:1px solid #DF3F3F;
+    padding-top: 10px;
+    }
+
+   legend {
+    color:#DF3F3F;
+    font-weight:bold
+    }
+   label {
+    margin-top:10px;
+    display:block;
+    }
+   label.inline {
+    display:inline;
+    margin-right:50px;
+    }
+   input, textarea, select, option {
+    background-color:#FFF3F3;
+    }
+   input, textarea, select {
+    padding:3px;
+    border:1px solid #F5C5C5;
+    border-radius:5px;
+    width:200px;
+    box-shadow:1px 1px 2px #C0C0C0 inset;
+    }
+   select {
+    margin-top:10px;
+    }
+   input[type=radio] {
+    background-color:transparent;
+    border:none;
+    width:10px;
+    }
+   input[type=submit], input[type=reset] {
+    width:100px;
+    margin-left:5px;
+    box-shadow:1px 1px 1px #D83F3D;
+    cursor:pointer;
+    }
+
+    textarea{
+        resize: none;
+    }
+   
+
 
 .divers{
     color:aliceblue;

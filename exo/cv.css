@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Luckiest+Guy&family=Montserrat:wght@500&family=Oswald&display=swap");
+
+body {
+  font-family: "Oswald", sans-serif;
+}
+
+p {
+  font-size: 17px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #6471a7;
+}
+/* Dégradé*/
+.haut {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  padding-top: 1%;
+
+  background: linear-gradient(272deg, #a500ca, #cab400, #00a0ea, #d50000);
+  background-size: 800% 800%;
+
+  -webkit-animation: AnimationName 59s ease infinite;
+  -moz-animation: AnimationName 59s ease infinite;
+  animation: AnimationName 59s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 51%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 51%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 51%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 51%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 51%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 51%;
+  }
+}
+/* Barre de Profil */
+#logo {
+  margin: 1%;
+  border: 1px solid;
+  box-shadow: 2px 2px 2px black;
+}
+
+#logo2 {
+  background: transparent;
+  margin: 1%;
+  padding: 1%;
+}
+
+ion-icon {
+  color: aliceblue;
+}
+
+h2 {
+  margin: 1%;
+  padding: 1%;
+  text-decoration: underline;
+  font-size: 40px;
+}
+/* Parent */
+.gp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1120px;
+  margin: auto;
+}
+
+/* Colonne de gauche */
+#left {
+  flex-flow: column wrap;
+  width: 800px;
+  height: 300px;
+}
+
+#gauche1, #gauche3 {
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 1%;
+  padding: 2%;
+  width: 350px;
+}
+
+#gauche2 {
+  margin: 1%;
+  padding: 1%;
+}
+
+#gauche3 {
+  width: 300px;
+}
+
+/* Colonne de droite */
+#right {
+  flex-flow: column wrap;
+  width: 800px;
+  height: 300px;
+}
+
+#droite2 {
+  margin: 1%;
+  padding: 1%;
+}
+
+.bis {
+  text-decoration: underline;
+}
+
+
+
