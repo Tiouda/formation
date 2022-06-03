@@ -1,0 +1,184 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #F5F4F8
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+}
+
+header div:first-child {
+  display: flex;
+  justify-content: flex-start;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  font-size: 1.3rem;
+  padding: 0 9px;
+}
+
+header div:last child {
+  display: flex;
+}
+
+form input {
+  height: 35px;
+  margin: 8px 10%;
+  padding: 0 11%;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+header div:last-child {
+  display: flex;
+  width: 12%;
+  justify-content: space-between;
+}
+
+header div:last-child img {
+  border-radius: 50%;
+}
+
+header div:last-child span {
+  height: 50px;
+  line-height: 50px;
+  background: rgb(183, 183, 183);
+  padding: 0px 8px;
+  border-radius: 8px;
+}
+.slide {
+  background: #754ffe;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.slide .container img {
+  display: block;
+  height: 100%;
+}
+
+.slide h1 {
+  color: white;
+  font-size: 40px;
+}
+
+.slide p {
+  color: rgba(255, 255, 255, 0.556);
+  width: 75%;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.slide a {
+  padding: 15px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.slide a:first-of-type {
+  background: rgb(19, 191, 19);
+  color: white;
+}
+
+.slide a:last-child {
+  background: white;
+  color: black;
+}
+
+.indicateur {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px 0;
+  box-shadow: 0px 1px 3px rgba(3, 0, 71, 0.09);
+}
+
+.indicateur .container > div {
+  display: flex;
+  align-items: center;
+}
+
+.indicateur .container > div div:first-child {
+  background: #ffeeda;
+  color: rgb(190, 91, 30);
+  font-size: 1.5rem;
+  border-radius: 50%;
+  padding: 13px;
+  margin-right: 20px;
+}
+
+.indicateur h4 {
+  margin-bottom: 8px;
+}
+
+.indicateur p {
+  margin-top: 8px;
+}
+
+.user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cartes {
+  margin-top: 5%;
+}
+
+.cartes .container > div > img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.cartes .container > div div img {
+  border-radius: 50%;
+}
+
+.user>div{
+  display: flex;
+  align-items: center;
+}
+
+.user span{
+  margin-left: 15px;
+}
+
+.cartes .container > div {
+  width: 20%;
+  padding: 15px;
+  box-shadow: 0 1px 3px rgb(3 0 71 / 9%);
+  border-radius: 15px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1140px;
+  margin: 0 auto;
+  padding-top: 15px;
+  border-top: 1px solid rgba(185, 185, 185, 0.367);
+}
+
+footer li {
+  font-size: 16px;
+  color: gray;
+}
+
+footer p {
+  color: gray;
+}
